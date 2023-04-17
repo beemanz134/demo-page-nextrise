@@ -1,7 +1,13 @@
 ﻿.navbar {
-    background-color: dimgray;
+    background-color: darkslategray;
 }
-
+.nav-text{
+    text-shadow: -1px 1px 2px #a9bbba,
+    1px 1px 2px #a9bbba,
+    1px -1px 0 #a9bbba,
+    -1px -1px 0 #a9bbba;
+    font-weight: 700;
+}
 #splash-container {
     width: 100vw;
     /* height: 99vh; */
@@ -34,10 +40,15 @@
 #icon-picture {
     max-width: 30%;
 }
-
+#pitch-container-parent{
+    background:darkgray;
+}
 #pitch-container {
-    background-color: lightgray;
-    margin-top: 1%;
+    /* background-color: lightgray; */
+    padding-top: 2%;
+    padding-bottom: 2%;
+    background:
+        linear-gradient(to top, lightgray, transparent)
 }
 
 .pitch-image {
@@ -53,7 +64,7 @@
 }
 
 footer {
-    margin-top: 1%;
+    margin-top: 0;
 }
 
 .center {
@@ -74,12 +85,30 @@ footer {
 .cards-button {
     max-width: 50%;
 }
-
+h1{
+    font-family: fantasy;
+}
+.pitch-text{
+    text-shadow: -1px 1px 2px #faf6f6,
+    1px 1px 2px #faf8f8,
+    1px -1px 0 #f8f6f6,
+    -1px -1px 0 #faf8f8;
+}
+#socials-bar{
+    background: darkslategray;
+    color: white;
+}
 /* about */
 #machine-image {
     width: 80%;
 }
+#myHeader{
+    background: #faf8f8;
+}
 
+.margin-bot{
+    margin-bottom:10%;
+}
 /* about */
 
 /* product */
