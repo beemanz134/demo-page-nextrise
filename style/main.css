@@ -108,12 +108,11 @@ h1 {
     color: white;
 }
 
-#splash2 {
+#index_splash2 {
     width: -webkit-fill-available;
     width: -moz-available;
     width: fill-available;
     margin-top: 1%;
-    margin-bottom: 1%;
 }
 
 /* about */
@@ -150,11 +149,16 @@ p2 {
     background: lightgray;
 }
 
-
+#image-about2{
+    width:90%
+}
+#about_label{
+    margin-top: 5%;
+}
 /* about */
 
 /* product */
-#splash2 {
+#product_splash2 {
     background-image: url("../images/splash2.png");
     background-repeat: no-repeat;
     background-position: center top;
@@ -210,3 +214,12 @@ product_img{
 /* join     */
 
 /* join     */
+
+
+.img-icon {
+    font-size: inherit;
+    height: 1em;
+    width: 1em;
+    max-width: 100%;
+    vertical-align: middle;
+ }
