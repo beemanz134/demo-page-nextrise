@@ -128,8 +128,9 @@ p2 {
     padding-bottom: 2rem;
 }
 
-#p_section {
+.p_section {
     padding-top: 2%;
+    color: darkslategray;
 }
 
 #about_display {
